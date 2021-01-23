@@ -11,7 +11,7 @@ SPRITESHEET = "spritesheet_jumper.png"
 PLAYER_ACC = 0.5
 PLAYER_FRICTION = -0.12
 PLAYER_GRAV = 0.8
-PLAYER_JUMP = 20
+PLAYER_JUMP = 5000
 
 # Game properties
 BOOST_POWER = 60

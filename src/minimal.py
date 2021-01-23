@@ -1,3 +1,4 @@
+import os
 # import the pygame module, so you can use it
 import pygame
 
@@ -7,7 +8,7 @@ def main():
     # initialize the pygame module
     pygame.init()
     # load and set the logo
-    logo = pygame.image.load("alien3.png")
+    logo = pygame.image.load(os.path.join("images", "alien3.png"))
     pygame.display.set_icon(logo)
     pygame.display.set_caption("minimal program")
 
